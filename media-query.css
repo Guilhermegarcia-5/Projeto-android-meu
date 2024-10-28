@@ -1,0 +1,83 @@
+@charset "UTF-8";
+#burguer{
+    display: none;
+}
+
+nav{
+    display: block;
+}
+nav a{
+    display: inline-block;
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    background-color: rgb(34, 245, 129);
+    box-shadow: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+main{
+    width: 768px;
+}
+
+img{
+    width: 100%;
+}
+
+#dandroidp{
+    display: none;
+}
+#dandroid{
+    display: block;
+}
+
+#irinap{
+    display: none
+}
+#irina{
+    display: block
+}
+
+#bugdroid{
+    width: 50%;
+}
+
+#video{
+    position: relative;
+    padding-bottom: 450px;
+    width: 808px;
+    margin: auto;
+}
+
+iframe{
+    position: absolute;
+    height: 400px;
+    padding-bottom: none;
+}
+
+section{
+    width: 768px;
+    margin: auto;
+}
+
+@media screen and (min-width: 1000px) {
+    main{
+        width: 1000px;
+    }
+
+    #video{
+        width: 1040px;
+        height: 100px;
+    }
+
+    iframe{
+        height: 490px;
+    }
+
+    section{
+        width: 1000px;
+    }
+}
